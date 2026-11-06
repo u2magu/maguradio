@@ -10,28 +10,28 @@
  "parts": {
   "mouth_half": {
    "src": "mouth_half.png",
-   "x": 407,
-   "y": 292
+   "x": 431,
+   "y": 171
   },
   "mouth_open": {
    "src": "mouth_open.png",
-   "x": 407,
-   "y": 292
+   "x": 431,
+   "y": 171
   },
   "smile_mouth": {
    "src": "smile_mouth.png",
-   "x": 407,
-   "y": 292
+   "x": 431,
+   "y": 171
   },
   "blink": {
    "src": "blink.png",
-   "x": 370,
-   "y": 242
+   "x": 452,
+   "y": 136
   },
   "half_blink": {
    "src": "half_blink.png",
-   "x": 370,
-   "y": 242
+   "x": 452,
+   "y": 136
   }
  },
  "mouth": {
@@ -47,5 +47,5 @@
    "mouth": "smile_mouth"
   }
  },
- "note": "ユーザーがGrokで生成し提供したイラスト。base.png に、口（mouth_*）と目（blink）の小さな画像を x, y の位置に重ねる"
+ "note": "ユーザーがGrokで生成し提供したイラスト（全身・片目隠れ）。base.png に、口（mouth_*）と目（blink）の小さな画像を x, y の位置に重ねる"
 }
