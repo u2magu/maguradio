@@ -1,52 +1,30 @@
 {
- "format": "myradio/character-1",
- "type": "sprites",
- "size": [
-  896,
-  768
- ],
- "background": "#161a26",
+ "name": "magu-caster",
+ "format": "sprites",
  "base": "base.png",
- "depth": "depth.png",
- "parts": {
-  "mouth_half": {
-   "src": "mouth_half.png",
-   "x": 430,
-   "y": 318
-  },
-  "mouth_open": {
-   "src": "mouth_open.png",
-   "x": 430,
-   "y": 318
-  },
-  "blink": {
-   "src": "blink.png",
-   "x": 448,
-   "y": 245
-  },
-  "smile_mouth": {
-   "src": "smile_mouth.png",
-   "x": 430,
-   "y": 318
-  },
-  "half_blink": {
-   "src": "half_blink.png",
-   "x": 448,
-   "y": 245
-  }
- },
+ "width": 896,
+ "height": 768,
+ "faceY": 270,
  "mouth": {
-  "1": "mouth_half",
-  "2": "mouth_open"
+  "cx": 434,
+  "cy": 307,
+  "closed": "mouth_closed.png",
+  "half": "mouth_half.png",
+  "open": "mouth_open.png",
+  "smile": "smile_mouth.png"
  },
- "eye": {
-  "blink": "blink",
-  "half": "half_blink"
- },
- "expressions": {
-  "smile": {
-   "mouth": "smile_mouth"
+ "blink": {
+  "open": null,
+  "half": "half_blink.png",
+  "closed": "blink.png",
+  "region": {
+   "x": 370,
+   "y": 242,
+   "w": 132,
+   "h": 52
   }
  },
- "note": "AIで生成したキャラクターです。base.png に、口（mouth_*）と目（blink・look_*）の小さな画像を x, y の位置に重ねる"
+ "license": {
+  "note": "ユーザーがGrokで生成し提供したイラスト。まぐラジオのキャスターとして使用。"
+ }
 }
