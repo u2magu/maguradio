@@ -1,0 +1,32 @@
+{
+ "format": "myradio/station-1",
+ "name": "まぐラジオ",
+ "description": "政治・経済からスポーツまで、昨日の主要ニュースを毎朝まとめてお届けします。",
+ "tagline": "朝の主要ニュースまとめ",
+ "logo": "logo.svg",
+ "url": "https://u2magu.github.io/maguradio/",
+ "repo": "https://github.com/u2magu/maguradio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "06:10",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクターです"
+ },
+ "credits": [
+  "声：Irodori-TTS（AI音声合成）"
+ ],
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "weather": true
+}
